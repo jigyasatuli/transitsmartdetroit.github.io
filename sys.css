@@ -1,0 +1,132 @@
+.title { font-family:"Input-Sans",  sans-serif;
+font-size: 50px;
+text-align: center;
+margin-top: 30px;}
+
+.container_main{ margin-bottom: 5%;}
+
+
+.kiosk { font-size: 30px;
+
+	margin-top: 50px;
+	font-family:"Input-sans", sans-serif;
+	font-weight: 400;
+	
+}
+
+.videos-1{ margin-top: 5%;
+
+	text-align: center;
+	
+display: inline-block;
+}
+
+.bus {font-size: 25px;
+	margin-left: 50px;
+	margin-top: 50px;
+	font-family: "Input-Sans", sans-serif;
+	font-weight: 400;
+	
+	
+}
+
+.busimg{ margin-top: 5%;
+	text-align: center;
+
+	
+display: inline-block;}
+
+.bus2 { font-size: 25px;
+	margin-left: 50px;
+	margin-top: 50px;
+	font-family:"Input-Sans", sans-serif;
+text-align: center;}
+
+
+.access { font-size: 25px;
+
+	margin-top: 50px;
+	font-family:"Input-Sans", sans-serif;
+text-align: left;}
+
+
+
+video{border-style: solid;
+	border-color: blue;
+	max-width: 30%;
+	margin-left: 2
+}
+
+p{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+
+
+
+
+.nav{ float: right;
+	font-size: 30px;
+	text-decoration: none;
+	color: blue;
+	margin-right: 2%;
+	font-family: "Input-sans", sans-serif;
+	
+}
+
+.kiosk-txt{
+
+	padding: 5%;
+	font-size: 25px;
+	text-align: left;
+}
+
+
+.bus-txt{
+
+
+	font-size: 25px;
+	text-align: left;
+}
+
+.bus2-txt{
+
+
+	font-size: 25px;
+	text-align: left;
+}
+
+.kiosk, .bus, .bus2, .access{
+	
+margin-top: 5%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	
+	
+	h1{ margin-top: 5%;
+	font-size: 15px;
+	 }
+	
+	p{ font-size: 10px;}
+		
+	
+	.container_main{ margin-top: 2%;
+	}
+	
+	.title{ margin-top: 15%;
+	font-size: 20px;}
+
+	
+	
+	h2{ font-size: 15px;}	
+	
+
+h3{ font-size: 15px;}
+	}
+	
+.kiosk-txt, .bus-txt, .bus2-txt, { font-size: 15px;}
+

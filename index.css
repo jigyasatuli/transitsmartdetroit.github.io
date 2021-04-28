@@ -1,0 +1,100 @@
+html {font-family: "Input-sans", sans-serif;}
+
+.container_main{ display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5%;
+
+	
+	
+}
+
+
+h1, p{ text-align: center;
+	margin-top: 5%;
+
+}
+/* .challenge, .audience, .system{ border-width: 4px;
+border-color: blue;
+	border-style: solid;
+	width: 50%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 5%;
+	padding: 6% 5%;
+	text-align: center;
+
+	font-size: 13px;
+	
+} */
+
+h1{ font-size: 35px; }
+
+h2{ font-size: 25px;}
+
+a{border-width: 4px;
+border-color: blue;
+	border-style: solid;
+	width: 50%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 5%;
+	padding: 6% 5%;
+	text-align: center;
+
+	font-size: 15px;
+	text-decoration: none;
+	
+	 }
+#pop-up{
+
+
+	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+		
+	
+	
+	
+}
+
+#pop-up:hover{
+	transform: scale(1.25, 1.25);
+}
+
+#pop-up ::after {
+	
+ 
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+ a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+
+
+
+
+/* Media queries */ 
+
+@media only screen and (max-width: 600px) {
+	
+	
+	h1{ margin-top: 5%;
+	font-size: 15px;
+	 }
+	
+	p{ font-size: 8.5px;}
+		
+	
+	.container_main{ margin-top: 2%;
+	}
+	
+	.title{ margin-top: 15%;}
+	
+	
+	h2{ font-size: 13px;}	
+	}
+
+	
+	
